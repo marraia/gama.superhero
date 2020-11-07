@@ -1,0 +1,9 @@
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\bin\Debug\netcoreapp3.1\SuperHero.Domain.deps.json
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\bin\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.csprojAssemblyReference.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.AssemblyInfoInputs.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.AssemblyInfo.cs
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.csproj.CoreCompileInputs.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.dll
+F:\avanade\SuperHero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.pdb

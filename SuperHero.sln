@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - WebApi", "0 - WebApi", "{C18279CD-B5AD-460E-B075-80DBF6B79CCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{AB10A549-23F9-4947-8439-9EEC95C8FF99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{0F3249D1-9B41-41A8-A1EA-0253AFA47092}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{82CCB37D-853D-4DB1-A8FA-A40E2CE42FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{7668FE7E-EA5F-43F4-8963-E3AAE79FEF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Api", "src\Services\SuperHero.Api\SuperHero.Api.csproj", "{8CEE0925-11AC-4743-A459-E4DBF44D9DD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Repositories", "3.1 - Repositories", "{CD2EFB64-30B6-452C-8172-D18BD1375D64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - IoC", "3.2 - IoC", "{F8393895-616A-48DF-805B-8F8A09377DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Domain", "src\Modules\SuperHero.Domain\SuperHero.Domain.csproj", "{D41DA849-E293-4FA3-AB57-DA3B5D0184D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Infrastructure.Repositories", "src\Modules\SuperHero.Infrastructure.Repositories\SuperHero.Infrastructure.Repositories.csproj", "{E2D07DAD-7DC0-4983-B72E-157C748AF3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Application", "src\Modules\SuperHero.Application\SuperHero.Application.csproj", "{EBCEEFFC-CCC9-441B-908C-CEE72066218B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Infraestructure.IoC", "src\Modules\SuperHero.Infraestructure.IoC\SuperHero.Infraestructure.IoC.csproj", "{993A2041-82A5-4DEE-AFB7-A9540E813AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CEE0925-11AC-4743-A459-E4DBF44D9DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEE0925-11AC-4743-A459-E4DBF44D9DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEE0925-11AC-4743-A459-E4DBF44D9DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEE0925-11AC-4743-A459-E4DBF44D9DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41DA849-E293-4FA3-AB57-DA3B5D0184D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41DA849-E293-4FA3-AB57-DA3B5D0184D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41DA849-E293-4FA3-AB57-DA3B5D0184D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41DA849-E293-4FA3-AB57-DA3B5D0184D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D07DAD-7DC0-4983-B72E-157C748AF3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D07DAD-7DC0-4983-B72E-157C748AF3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D07DAD-7DC0-4983-B72E-157C748AF3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D07DAD-7DC0-4983-B72E-157C748AF3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCEEFFC-CCC9-441B-908C-CEE72066218B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCEEFFC-CCC9-441B-908C-CEE72066218B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCEEFFC-CCC9-441B-908C-CEE72066218B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCEEFFC-CCC9-441B-908C-CEE72066218B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993A2041-82A5-4DEE-AFB7-A9540E813AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993A2041-82A5-4DEE-AFB7-A9540E813AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993A2041-82A5-4DEE-AFB7-A9540E813AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993A2041-82A5-4DEE-AFB7-A9540E813AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CEE0925-11AC-4743-A459-E4DBF44D9DD6} = {C18279CD-B5AD-460E-B075-80DBF6B79CCF}
+		{CD2EFB64-30B6-452C-8172-D18BD1375D64} = {82CCB37D-853D-4DB1-A8FA-A40E2CE42FB2}
+		{F8393895-616A-48DF-805B-8F8A09377DB7} = {82CCB37D-853D-4DB1-A8FA-A40E2CE42FB2}
+		{D41DA849-E293-4FA3-AB57-DA3B5D0184D1} = {0F3249D1-9B41-41A8-A1EA-0253AFA47092}
+		{E2D07DAD-7DC0-4983-B72E-157C748AF3ED} = {CD2EFB64-30B6-452C-8172-D18BD1375D64}
+		{EBCEEFFC-CCC9-441B-908C-CEE72066218B} = {AB10A549-23F9-4947-8439-9EEC95C8FF99}
+		{993A2041-82A5-4DEE-AFB7-A9540E813AC5} = {F8393895-616A-48DF-805B-8F8A09377DB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5C3D999-9F63-4BD3-BAB0-5B47B99FEEDB}
+	EndGlobalSection
+EndGlobal

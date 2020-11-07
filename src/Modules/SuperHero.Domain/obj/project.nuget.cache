@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ZWWWtfvZp5Mw+toPKkCQmyrDBwNwUCYMUuMBuA7ePx4MaMyDNwiH+pN60lfxCyVLdB9ywK0D8qQMjz+HjMe5g==",
+  "success": true,
+  "projectFilePath": "F:\\avanade\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Application.deps.json
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Application.dll
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Application.pdb
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.csprojAssemblyReference.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.AssemblyInfoInputs.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.AssemblyInfo.cs
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.csproj.CopyComplete
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.dll
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.pdb
+F:\avanade\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.csproj.CoreCompileInputs.cache
