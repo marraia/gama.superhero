@@ -45,3 +45,5 @@ F:\avanade\SuperHero\src\Services\SuperHero.Api\bin\Debug\netcoreapp3.1\Newtonso
 F:\avanade\SuperHero\src\Services\SuperHero.Api\obj\Debug\netcoreapp3.1\SuperHero.Api.csproj.CoreCompileInputs.cache
 F:\avanade\SuperHero\src\Services\SuperHero.Api\obj\Debug\netcoreapp3.1\SuperHero.Api.MvcApplicationPartsAssemblyInfo.cs
 F:\avanade\SuperHero\src\Services\SuperHero.Api\obj\Debug\netcoreapp3.1\SuperHero.Api.MvcApplicationPartsAssemblyInfo.cache
+F:\avanade\SuperHero\src\Services\SuperHero.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\avanade\SuperHero\src\Services\SuperHero.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll

@@ -1,4 +1,5 @@
-﻿using SuperHero.Domain.Entities;
+﻿using Microsoft.Extensions.Configuration;
+using SuperHero.Domain.Entities;
 using SuperHero.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
@@ -10,16 +11,17 @@ namespace SuperHero.Infrastructure.Repositories
 {
     public class HeroRepository : IHeroRepository
     {
-        public HeroRepository()
+        private readonly IConfiguration _configuration;
+        public HeroRepository(IConfiguration configuration)
         {
-
+            _configuration = configuration;
         }
 
         public IEnumerable<Hero> Get()
         {
             try
             {
-                using(var con = new SqlConnection(""))
+                using(var con = new SqlConnection(_configuration["ConnectionString"]))
                 {
                     var heroList = new List<Hero>();
                     var sqlCmd = @"SELECT H.Id,
@@ -60,14 +62,86 @@ namespace SuperHero.Infrastructure.Repositories
             }
         }
 
-        public Task<Hero> GetByIdAsync(int id)
+        public async Task<Hero> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var con = new SqlConnection(_configuration["ConnectionString"]))
+                {
+                    var heroList = new List<Hero>();
+                    var sqlCmd = "dbo.SELECIONAR_HEROIS_POR_ID";
+
+                    using (var cmd = new SqlCommand(sqlCmd, con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@id", id);
+
+                        con.Open();
+
+                        var reader = await cmd
+                                            .ExecuteReaderAsync()
+                                            .ConfigureAwait(false);
+
+                        while (reader.Read())
+                        {
+                            var hero = new Hero(int.Parse(reader["id"].ToString()),
+                                                reader["Name"].ToString(),
+                                                new Editor(int.Parse(reader["idEditor"].ToString()),
+                                                            reader["Editor"].ToString()),
+                                                int.Parse(reader["Age"].ToString()),
+                                                DateTime.Parse(reader["Created"].ToString()));
+
+                            return hero;
+                        }
+
+                        return default;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
-        public Task<int> InsertAsync(Hero hero)
+        public async Task<int> InsertAsync(Hero hero)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var con = new SqlConnection(_configuration["ConnectionString"]))
+                {
+                    var sqlCmd = @"INSERT INTO 
+                                    HERO (Name, 
+                                        IdEditor, 
+                                        Age, 
+                                        Created) 
+                               VALUES (@name, 
+                                        @editor,
+                                        @age, 
+                                        @created); SELECT scope_identity();";
+
+                    using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
+                    {
+                        cmd.CommandType = CommandType.Text;
+
+                        cmd.Parameters.AddWithValue("name", hero.Name);
+                        cmd.Parameters.AddWithValue("editor", hero.Editor.Id);
+                        cmd.Parameters.AddWithValue("age", hero.Age);
+                        cmd.Parameters.AddWithValue("created", hero.Created);
+
+                        con.Open();
+                        var id = await cmd
+                                        .ExecuteScalarAsync()
+                                        .ConfigureAwait(false);
+
+                        return int.Parse(id.ToString());
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

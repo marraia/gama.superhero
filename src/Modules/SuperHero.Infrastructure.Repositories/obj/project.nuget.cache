@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BzMGTHIFN2uqIt9ICytYT+eISF864SWv1LzhulSJwnphAuwZrWndiJUzExb3ZKWEsVvsgqTnV4o5xc9t0KfAIQ==",
+  "dgSpecHash": "Vv1pdPEyGm8+dFJ5MCkeUzGs7VUdfciF4ruz460tr2Zz9YH6hj2DbalF/kwhIGHFXmNecQqNKEJOUpag4swKcw==",
   "success": true,
   "projectFilePath": "F:\\avanade\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.9\\microsoft.extensions.configuration.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
