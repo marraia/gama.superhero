@@ -4,6 +4,7 @@ namespace SuperHero.Domain.Entities
 {
     public class Hero
     {
+        public Hero() { }
         public Hero(string name,
                     Editor editor,
                     int age)

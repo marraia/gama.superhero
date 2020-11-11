@@ -2,6 +2,7 @@
 {
     public class Editor
     {
+        public Editor() { }
         public Editor(string name)
         {
             Name = name;
