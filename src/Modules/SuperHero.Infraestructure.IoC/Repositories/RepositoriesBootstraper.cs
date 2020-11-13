@@ -9,6 +9,8 @@ namespace SuperHero.Infraestructure.IoC.Repositories
         internal void ChildServiceRegister(IServiceCollection services)
         {
             services.AddScoped<IHeroRepository, HeroRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IProfileRepository, ProfileRepository>();
         }
     }
 }

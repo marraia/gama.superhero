@@ -1,12 +1,12 @@
-F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
-F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csprojAssemblyReference.cache
-F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.AssemblyInfoInputs.cache
-F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.AssemblyInfo.cs
 F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.deps.json
 F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.dll
 F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.pdb
+F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
 F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csprojAssemblyReference.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.AssemblyInfoInputs.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.AssemblyInfo.cs
+F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
 F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csproj.CopyComplete
 F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.dll
 F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.pdb
-F:\avanade\SuperHero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csproj.CoreCompileInputs.cache

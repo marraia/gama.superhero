@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8ptF7aKf5oVl0uE4X/WHNT/YCpSKTs/P6SERnZDL0Nx0jW5LGi9urZeXT2fJl+JWbN778OtbBPbJcKd8i9C0Vg==",
+  "dgSpecHash": "bE2F5YTnbJr740m7B0KMszE9RejM37W4dlAtHYgf0SrdP+JPjpfx7pghi1lGxWVGABHRlCgc4CVjFyLoJyxHAg==",
   "success": true,
   "projectFilePath": "F:\\avanade\\SuperHero\\src\\Modules\\SuperHero.Tests\\SuperHero.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ferna\\.nuget\\packages\\bogus\\31.0.3\\bogus.31.0.3.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\coverlet.msbuild\\2.9.0\\coverlet.msbuild.2.9.0.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\marraia.notifications\\1.1.2\\marraia.notifications.1.1.2.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\mediatr\\8.0.2\\mediatr.8.0.2.nupkg.sha512",

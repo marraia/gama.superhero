@@ -1,8 +1,5 @@
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.deps.json
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.dll
-F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.csprojAssemblyReference.cache
-F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.AssemblyInfoInputs.cache
-F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.AssemblyInfo.cs
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.pdb
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Application.dll
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
@@ -10,6 +7,9 @@ F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcore
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Application.pdb
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.pdb
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\bin\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.csprojAssemblyReference.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.AssemblyInfoInputs.cache
+F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.AssemblyInfo.cs
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.csproj.CoreCompileInputs.cache
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.csproj.CopyComplete
 F:\avanade\SuperHero\src\Modules\SuperHero.Infraestructure.IoC\obj\Debug\netcoreapp3.1\SuperHero.Infraestructure.IoC.dll
